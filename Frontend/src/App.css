@@ -1,0 +1,160 @@
+#root {
+  max-width:100;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+
+}
+
+
+.logo {
+  height: 6em;
+  padding:0;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+@font-face {
+  font-family: 'Carlo';
+  src: url('./assets/fonts/Carlo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clarissa';
+  src: url('./assets/fonts/Clarissa.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kaushan script';
+  src: url('./assets/fonts/KaushanScript-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeMajor';
+  src: url('./assets/fonts/LeMajor-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cormorant';
+  src: url('./assets/fonts/CormorantGaramond-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('./assets/fonts/LobsterTwo-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Asbor';
+  src: url('./assets/fonts/AsborFashionDemoVersionRegular-ARmvA.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mangro';
+  src: url('./assets/fonts/mangro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('./assets/fonts/Lora-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfairdisplay';
+  src: url('./assets/fonts/PlayfairDisplay-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.Toastify__toast {
+  background-color: #3e2723 !important;  /* Light Beige background */
+  color: #3e2723 !important;  /* Dark text color */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Success Toast styling */
+.Toastify__toast--success {
+  background-color: #1d2a3b !important;  /* Teal Green for success */
+  color: #fafafa !important;  /* White text for success */
+  
+}
+
+/* Error Toast styling */
+.Toastify__toast--error {
+  background-color: #1d2a3b !important;  /* Bright Coral for error */
+  color: #ffffff !important;  /* White text for error */
+}
+
+/* Info Toast styling */
+.Toastify__toast--info {
+  background-color: #3498db !important;  /* Blue for info */
+  color: #ffffff !important;  /* White text for info */
+}
+
+/* Warning Toast styling */
+.Toastify__toast--warning {
+  background-color: #f39c12 !important;  /* Yellow for warning */
+  color: #ffffff !important;  /* White text for warning */
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

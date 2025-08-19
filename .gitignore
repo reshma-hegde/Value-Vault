@@ -1,0 +1,7 @@
+Backend/config/
+Backend/package-lock.json
+Backend/node_modules/
+Backend/package.json
+Frontend/node_modules/
+Frontend/package.json
+Frontend/package-lock.json
